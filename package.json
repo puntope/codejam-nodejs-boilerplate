@@ -1,0 +1,33 @@
+{
+  "name": "codejam-nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic boilerplate for the Google Code Jam in NODEJS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node build/build.js",
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "google",
+    "codejam",
+    "nodejs",
+    "boilerplate"
+  ],
+  "author": "Miguel Pérez Pellicer",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "babel-cli": "^6.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^2.0.2",
+    "rollup": "^2.3.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
