@@ -1,3 +1,3 @@
-import readCases from './readCases';
+import {readCases} from './readCases';
 
 readCases();
