@@ -1,19 +1,17 @@
 import processCase from './processCase';
-const fs = require('fs');
 const readline = require('readline');
 let lineNumber = 0;
 
 export async function readCases() {
-  const fileStream = fs.createReadStream('input.txt');
 
   const rl = readline.createInterface({
-    input: fileStream,
+    input: process.stdin,
     crlfDelay: Infinity
   });
 
   for await (const line of rl) {
     if (lineNumber) {
-      processCase(line, lineNumber);
+      processCase(lineNumber, line);
     }
     lineNumber++;
   }
