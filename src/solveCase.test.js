@@ -1,9 +1,9 @@
 import solveCase from "./solveCase";
 
 const tests = [
-   [[4],'1 3'],
-   [[940],'910 30'],
-   [[4444],'1111 3333'],
+    [[4], '1 3'],
+    [[940], '910 30'],
+    [[4444], '1111 3333'],
 ];
 
 for (let i = 0; i < tests.length; i++) {
