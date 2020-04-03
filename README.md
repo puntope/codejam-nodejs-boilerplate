@@ -10,7 +10,7 @@ This boilerplate can be used to aproach the CodeJam challenges using NodeJS
 
 ## Getting started
 
-- Solve your case in `solveCase.js`
+- Solve your case in `solveCase.js` (you can set the number of lines per case inside `readCase.js`
 - Configure some test in `solveCase.test.js` and run `npm run test` 
 - Run `npm run build`
 - Upload `build/build.js` to the CodeJam editor.
