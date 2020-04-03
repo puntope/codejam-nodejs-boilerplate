@@ -1,7 +1,7 @@
 import solveCase from './solveCase';
 
-const processCase = (testNumber, line = 'test') => {
-  let solution = solveCase(line);
+const processCase = (testNumber, lines = []) => {
+  let solution = solveCase(lines);
   console.log(`Case #${testNumber}: ${solution}`);
 };
 
