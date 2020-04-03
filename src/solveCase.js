@@ -1,9 +1,6 @@
 const solveCase = (lines = []) => {
-    let data = lines[0].toString();
-    let numA = data.replace(/4/g, 1);
-    let numB = data - numA;
-
-    return `${numA} ${numB}`;
+    // solve your case here
+    // remember you can set the lines per case in readCase.js
 };
 
 export default solveCase;
